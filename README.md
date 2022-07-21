@@ -1,7 +1,7 @@
 # My Portfolio Site
 
 ## Intro
-This is my Portfolio website. For the editor, I am using [Visual Studio Code](https://code.visualstudio.com/).
+This is my [Portfolio website](https://nejla-eh.github.io/portfolio-website/). For the editor, I am using [Visual Studio Code](https://code.visualstudio.com/).
 
 ## Technology stack
 The following technologies are used:
