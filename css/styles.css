@@ -91,9 +91,37 @@ button:focus,
     opacity: 0.8;
 }
 
+.submit-button {
+    background-color: white;
+}
+
+.submit-button:hover,
+.submit-button:focus {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
 ul {
     padding: 0;
     list-style: none;
+}
+
+#contact-form {
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 16px;
+    padding-top: 7px;
+    width: 500px;
+    background-color: #f1efef;
+    border-radius: 4%;
+}
+
+#contact-form>input,
+textarea {
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid #a7a3a3;
 }
 
 /* CLASSES */
@@ -180,6 +208,8 @@ ul {
     margin-top: 16px;
 }
 
+
+
 .grid__item {
     display: inline-block;
     width: 33%;
@@ -191,6 +221,11 @@ ul {
     margin-top: -50px;
     margin-bottom: 16px;
     display: block;
+}
+
+.standard-label {
+    display: inline-block;
+    width: 100px;
 }
 
 @supports (display: grid) {
